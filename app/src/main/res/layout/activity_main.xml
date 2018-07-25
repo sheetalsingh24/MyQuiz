@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:text="Q1.In which city Bangladesh-Afghanistan t20 series was held in June 2018 \?"
+
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:id="@+id/radio_1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_dehradun"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+           android:checked="false"
+            android:text="Dehradun"/>
+        <RadioButton android:id="@+id/radio_kolkata"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kolkata"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_weight="0"
+        android:padding="12dp"
+        android:text="Q2. .Who is the president of world bank \?"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:id="@+id/radio_2"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_kim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:checked="false"
+            android:text=" Dr. Jim Yong Kim"/>
+        <RadioButton android:id="@+id/radio_john"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="20dp"
+            android:text="John Blake"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:text="Q3. Who is the newly appointed RBI Governor \? "
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:id="@+id/radio_3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_urjit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="20dp"
+            android:text="Urjit Patel"/>
+        <RadioButton android:id="@+id/radio_subha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="20dp"
+            android:text="Subha Gosain"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_weight="0"
+        android:padding="12dp"
+        android:text="Q4.  Who is the Present Army Chief \?"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:id="@+id/radio_4"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_bipin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="20dp"
+            android:text="General Bipin Rawat"/>
+        <RadioButton android:id="@+id/radio_ashok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="20dp"
+            android:text="General Ashok Kumar"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/butt_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:onClick="displaybt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="SCORE : "/>
+    <TextView
+        android:id="@+id/score_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="0"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
